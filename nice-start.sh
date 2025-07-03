@@ -53,8 +53,7 @@ dev () {
 	godev $l
 }
 
-sso () {
-	# Runs a localhost sso server
+sso () { # Quickly runs a localhost sso server
 	start chrome --profile-directory=Default  
 	# It's quicker for me to make sure that I open the chrome profile that has 
 	# auto-login set up first before the sso popup shows up. This isn't neccesary for most people.
